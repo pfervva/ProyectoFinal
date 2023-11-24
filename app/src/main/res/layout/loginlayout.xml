@@ -38,7 +38,7 @@
                 android:layout_marginTop="23sp"
                 android:gravity="center_horizontal|center_vertical"
                 android:paddingTop="10sp"
-                android:text="Registrate para comenzar"
+                android:text="Inicio de sesion"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
                 tools:ignore="HardcodedText" />
@@ -76,7 +76,7 @@
                 tools:ignore="DisableBaselineAlignment,NestedWeights">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -88,7 +88,7 @@
                     tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
 
                 <EditText
-                    android:id="@+id/EditText_username"
+                    android:id="@+id/EditText_username_login"
                     android:layout_width="match_parent"
                     android:layout_height="7dp"
                     android:layout_weight="1"
@@ -103,7 +103,7 @@
                     tools:ignore="Autofill,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -115,35 +115,7 @@
                     tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
 
                 <EditText
-                    android:id="@+id/editText_email"
-                    android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:layout_weight="1"
-                    android:autofillHints=""
-                    android:background="@drawable/fondobotones"
-                    android:ems="10"
-                    android:fontFamily="sans-serif-medium"
-                    android:hint="usuario@gmail.com"
-                    android:inputType="text"
-                    android:paddingLeft="10sp"
-                    android:textColor="#6C6C6C"
-                    android:textColorHint="#5A5A5A"
-                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck,VisualLintTextFieldSize" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="Contraseña"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
-
-                <EditText
-                    android:id="@+id/editText_password"
+                    android:id="@+id/EditText_password_login"
                     android:layout_width="match_parent"
                     android:layout_height="7dp"
                     android:layout_weight="1"
@@ -156,7 +128,6 @@
                     android:textColor="#6C6C6C"
                     android:textColorHint="#5A5A5A"
                     tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck,VisualLintTextFieldSize" />
-
             </LinearLayout>
 
             <LinearLayout
@@ -172,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:backgroundTint="#78B7EB"
-                    android:text="Registrarse"
+                    android:text="Iniciar sesion"
                     app:cornerRadius="10sp"
                     tools:ignore="HardcodedText,VisualLintButtonSize" />
 
@@ -182,7 +153,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Ya estas registrado?"
+                    android:text="No tienes cuenta aun?"
                     android:textColor="#FFFFFF"
                     android:textSize="16dp"
                     android:textStyle="bold"
@@ -194,7 +165,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center_horizontal"
-                    android:text="Iniciar Sesión"
+                    android:text="Registrarse"
                     android:textColor="#78B6EA"
                     tools:ignore="HardcodedText" />
 
