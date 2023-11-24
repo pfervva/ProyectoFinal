@@ -169,6 +169,7 @@
                     android:textColor="#78B6EA"
                     tools:ignore="HardcodedText" />
 
+
             </LinearLayout>
         </LinearLayout>
 

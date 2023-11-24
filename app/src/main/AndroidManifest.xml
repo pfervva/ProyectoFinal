@@ -22,11 +22,11 @@
             </intent-filter>
         </activity>
 
-        <!-- Agrega la actividad de inicio de sesión -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
         </activity>
+
 
     </application>
 
